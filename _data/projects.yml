@@ -3,12 +3,12 @@
   description: The largest gallery of CSS Gradients on the web. Still being updated with fantastic and unique gradients.
   img: /assets/img/gm_small.png
 - name: Blink.CSS
-  url: http://www.thecssking.com/BlinkCSS/
+  url: https://www.thecssking.com/BlinkCSS/
   description: A fun little library of CSS blink animations. Created to learn a little more about CSS animations.
   img: /assets/img/Blink_Med.png
 - name: More Obnoxious CSS
-  url: http://www.thecssking.com/MoreObnoxiousCSS/
-  description: Funny CSS animations based off of the original <a href="http://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!
+  url: https://www.thecssking.com/MoreObnoxiousCSS/
+  description: Funny CSS animations based off of the original <a href="https://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!
   img: /assets/img/Obnoxious_Med.png
 - name: Binge Browser
   url: http://www.bingebrowser.com/

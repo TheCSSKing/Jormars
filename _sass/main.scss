@@ -33,15 +33,18 @@ body {
     // Original BG
     background: repeating-linear-gradient(0deg, rgb(250, 250, 250) 0px, rgb(250, 250, 250) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(250, 250, 250) 0px, rgb(250, 250, 250) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(229,0%,100%),hsl(229,0%,100%));
 
-    // Dark BG
-    background-image: repeating-linear-gradient(90deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), repeating-linear-gradient(90deg, rgba(161, 161, 161, 0.09) 0px, rgba(161, 161, 161, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
-    
-    // Light BG
-    background-image: repeating-linear-gradient(90deg, rgba(173, 173, 173, 0.09) 0px, rgba(173, 173, 173, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(173, 173, 173, 0.09) 0px, rgba(173, 173, 173, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 96px), repeating-linear-gradient(0deg, rgba(173, 173, 173, 0.09) 0px, rgba(173, 173, 173, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), repeating-linear-gradient(90deg, rgba(173, 173, 173, 0.09) 0px, rgba(173, 173, 173, 0.09) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 12px), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
-
-
-    // Gray
+    // Gray - pretty good
     background-image: repeating-linear-gradient(0deg, rgb(245, 245, 245) 0px, rgb(245, 245, 245) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(245, 245, 245) 0px, rgb(245, 245, 245) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(131,0%,98%),hsl(131,0%,98%));
+
+    // Goood white grid.  Pretty subtle, goes nicely w/ blue
+    background-image: repeating-linear-gradient(90deg, rgba(203, 203, 203,0.1) 0px, rgba(203, 203, 203,0.1) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, rgba(203, 203, 203,0.1) 0px, rgba(203, 203, 203,0.1) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, rgba(203, 203, 203,0.1) 0px, rgba(203, 203, 203,0.1) 1px,transparent 1px, transparent 20px),repeating-linear-gradient(90deg, rgba(203, 203, 203,0.1) 0px, rgba(203, 203, 203,0.1) 1px,transparent 1px, transparent 20px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+
+    // Dark - better than gray I think.
+    // background-image: repeating-linear-gradient(90deg, hsla(178,0%,66%,0.05) 0px, hsla(178,0%,66%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(178,0%,66%,0.05) 0px, hsla(178,0%,66%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(178,0%,66%,0.07) 0px, hsla(178,0%,66%,0.07) 1px,transparent 1px, transparent 26px),repeating-linear-gradient(90deg, hsla(178,0%,66%,0.07) 0px, hsla(178,0%,66%,0.07) 1px,transparent 1px, transparent 26px),linear-gradient(0deg, rgb(20,20,20),rgb(20,20,20));
+
+    // Blue, surprisingly good!
+    // background-image: repeating-linear-gradient(0deg, hsla(319,0%,95%,0.06) 0px, hsla(319,0%,95%,0.06) 1px,transparent 1px, transparent 71px),repeating-linear-gradient(45deg, hsla(319,0%,95%,0.06) 0px, hsla(319,0%,95%,0.06) 1px,transparent 1px, transparent 71px),repeating-linear-gradient(90deg, hsla(319,0%,95%,0.05) 0px, hsla(319,0%,95%,0.05) 1px,transparent 1px, transparent 36px),repeating-linear-gradient(0deg, hsla(319,0%,95%,0.05) 0px, hsla(319,0%,95%,0.05) 1px,transparent 1px, transparent 36px),repeating-linear-gradient(90deg, hsla(319,0%,95%,0.05) 0px, hsla(319,0%,95%,0.05) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(45deg, hsla(319,0%,95%,0.05) 0px, hsla(319,0%,95%,0.05) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, rgb(14,93,177),rgb(14,93,177));
+
 }
 
 
