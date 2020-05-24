@@ -1,0 +1,37 @@
+<!-- <div class="app-header mb-4">
+
+    <nav class="mb-4 float-right mt-2">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                {{item.name}}
+            </a>
+        {% endfor %}
+
+        <a href="{{ site.codepen_url }}">Codepen</a>
+        <a href="{{ site.twitter_url }}">Twitter</a>
+    </nav>
+
+    <a href="/" class="text-decoration-none">
+        <h3 class="mb-4">Jordan Marshall</h3>
+    </a>
+</div> -->
+
+<div class="app-header mb-4">
+    <a href="/" class="text-decoration-none">
+        <h1 class="text-primary-base display-4 mb-3">Jordan Marshall</h1>
+    </a>
+
+    <nav class="mb-4">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                {{item.name}}
+            </a>
+        {% endfor %}
+
+        <!-- <a href="{{ site.github_url }}">Github</a> -->
+        <a href="{{ site.codepen_url }}">Codepen</a>
+        <a href="{{ site.twitter_url }}">Twitter</a>
+    </nav>
+
+    <div class="blue-box"></div>
+</div>

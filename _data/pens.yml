@@ -1,0 +1,12 @@
+- name: Personal Brand Generator
+  url: https://codepen.io/TheCSSKing/full/rRLBRX
+  description: Tired of being a "Full-Stack Ninja", or a "Backend Wizard"? Use this tool to generate useful, weird, or just plain random labels to put on your resume.
+  img: /assets/img/Brand_Med.png
+- name: CSS Grid-ient
+  url: https://codepen.io/TheCSSKing/full/ZEzBbGo
+  description: Fun grid patterns made by combining repeating linear gradients.  Options to control sizing, color, and a mysterious checkbox labeled "chaos".
+  img: /assets/img/Gridient_Med.png
+- name: Cool CSS Underline Effects
+  url: https://codepen.io/TheCSSKing/full/VwwRzgg
+  description: Cool underlines effects done entirely w/ CSS Gradients.  No images or JS.  My most popular pen. 
+  img: /assets/img/underline_small.png
