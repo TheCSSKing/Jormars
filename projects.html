@@ -13,9 +13,24 @@ title: Projects
 
 
 <div class="row pt-5">
+    {% for item in site.data.projects %}
+        <div class="col-6 mb-5">
+            <div class="card shadow-sm border-0" targeturl="{{ item.url }}">
+                 <img class="card-img-top" src="{{ item.img }}" alt="">
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text text-muted">{{ item.description }}</p>
+                </div>                
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- <div class="row pt-5">
     <div class="col"> 
         {% for item in site.data.projects %}
-            <div class="card shadow-sm border-0 mb-5" targeturl="{{ item.url }}">
+            <div class="card shadow-sm  mb-5" targeturl="{{ item.url }}">
                 <div class="row"> 
                     <div class="col-sm-5">
                         <img class="card-img" src="{{ item.img }}" alt="">
@@ -30,15 +45,31 @@ title: Projects
             </div>
         {% endfor %}
     </div>
-</div>
+</div> -->
 
 <h4 class="mb-2 mt-4">Codepen Pens</h4>
 <p class="mb-0">
     I really like Codepen for small "bite size" projects and fun experiments. 
-    There are a few of my favorite pens, you can see a more comprehensive list <a href="{{site.codepen_url}}">in my profile</a>.
+    There are a few of my favorites, you can see a more comprehensive list <a href="{{site.codepen_url}}">in my profile</a>.
     </p>
 
+
 <div class="row pt-5">
+    {% for item in site.data.pens %}
+        <div class="col-6">
+            <div class="card shadow-sm border-0 mb-5" targeturl="{{ item.url }}">
+                <img class="card-img-top" src="{{ item.img }}" alt="">
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text text-muted">{{ item.description }}</p>
+                </div>                
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- <div class="row pt-5">
     <div class="col">
         {% for item in site.data.pens %}
             <div class="card shadow-sm border-0 mb-5" targeturl="{{ item.url }}">
@@ -56,80 +87,8 @@ title: Projects
             </div>
         {% endfor %}
     </div>
-</div>
+</div> -->
 
-    <!-- <div class="col-12 col-sm-12">
-        <div class="row">
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="https://www.gradientmagic.com">
-                    <img class="card-img-top"
-                        src="/assets/img/GM_Large.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Gradient Magic</h5>
-                        <p class="card-text">The largest gallery of CSS Gradients on the web. Still being
-                            updated with fantastic and unique gradients.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="http://www.thecssking.com/BlinkCSS/">
-                    <img class="card-img-top"
-                        src="/assets/img/Blink_Med.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Blink.CSS</h5>
-                        <p class="card-text">A fun little library of CSS blink animations. Created to learn a
-                            little more about CSS animations. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="https://codepen.io/TheCSSKing/full/ZEzBbGo">
-                    <img class="card-img-top"
-                        src="/assets/img/Gridient_Med.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS Grid-ient</h5>
-                        <p class="card-text">Fun grid patterns made by combining repeating linear gradients.
-                            Options to control sizing, color, and a mysterious checkbox labeled "chaos".</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="https://codepen.io/TheCSSKing/full/rRLBRX">
-                    <img class="card-img-top"
-                        src="/assets/img/Brand_Med.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Personal Brand Generator</h5>
-                        <p class="card-text">Tired of being a "Full-Stack Ninja", or a "Backend Wizard"? Look no
-                            further. Use this tool to generate useful, weird, or just plain random labels to put
-                            on your resume.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="http://www.thecssking.com/MoreObnoxiousCSS/">
-                    <img class="card-img-top"
-                        src="/assets/img/Obnoxious_Med.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">More Obnoxious CSS</h5>
-                        <p class="card-text">Funny CSS animations based off of the original <a
-                                href="http://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not
-                            practical, but a fun way to learn about CSS Animations!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-                <div class="card shadow border-0" targeturl="http://www.bingebrowser.com/">
-                    <img class="card-img-top"
-                        src="/assets/img/BB_Small.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Binge Browser</h5>
-                        <p class="card-text">A unique tool that lets you "binge" content on popular websites. My
-                            first major web development project, not maintained anymore.</p>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </div> -->
 
 <script>
 

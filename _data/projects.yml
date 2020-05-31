@@ -6,6 +6,14 @@
   url: https://www.thecssking.com/BlinkCSS/
   description: A fun little library of CSS blink animations. Created to learn a little more about CSS animations.
   img: /assets/img/Blink_Med.png
+- name: Escape Buttons
+  url: https://www.thecssking.com/EscapeButtons/
+  description: Buttons that are fiendishly hard to click.  Mouse required for maximum frustration.
+  img: /assets/img/escape-buttons.png
+- name: Evil CSS Gram
+  url: http://www.thecssking.com/EvilCSSGram/
+  description: A library of Instagram like CSS image filters from a hell dimension
+  img: /assets/img/evil-gram.png
 - name: More Obnoxious CSS
   url: https://www.thecssking.com/MoreObnoxiousCSS/
   description: Funny CSS animations based off of the original <a href="https://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!

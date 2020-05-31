@@ -68,8 +68,6 @@ a {
 }
 
 .container {
-    // border-left: 1px solid $gray-200;
-    // border-right: 1px solid $gray-200;
     background-color: white;
     min-height: 100vh;
 }
@@ -79,15 +77,20 @@ a {
     font-size: 3rem;
 }
 
-.app-header {
-    .blue-box {
-        width: 100%;
-        height: 20px;
-        background-color: $primary-base;
-    }
+
+.blue-box {
+    width: 100%;
+    height: 20px;
+    background-color: $primary-base;
 }
 
+
 .template-post {
+
+    padding-right: 6rem;
+    padding-left: 6rem;
+
+
     .post-header {
         a {
             color: $gray-900;
@@ -96,9 +99,14 @@ a {
 
     .post-content {
 
+        line-height: 1.6em;
+        font-size: 18px;
+
         h1,h2,h3,h4,h5 {
-            margin-top: $spacer * 1.5;
+            margin-top: $spacer * 2;
+            margin-bottom: $spacer;
         }
+
         h1 {
             font-size: 1.5rem;
         }
@@ -109,14 +117,23 @@ a {
             font-size: 1rem;
         }
 
-        ol li , ul li {
-            margin-bottom: $spacer/2;
-        }
+        // ol li , ul li {
+        //     margin-bottom: 1.2rem;
+        // }
 
         blockquote {
-            padding: $spacer 3 * $spacer;
+            padding: $spacer;
             background-color: $gray-100;
             border-radius: 4px;
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .post-footer {
+        .float-left, .float-right {
+            max-width: 50%;
         }
     }
 
@@ -146,8 +163,8 @@ ul {
     list-style-type: circle;
 }
 
-ul li {
-    margin-bottom: $spacer/2    ;
+ul li, ol li {
+    margin-bottom: $spacer;
 }
 
 .card {

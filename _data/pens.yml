@@ -10,3 +10,11 @@
   url: https://codepen.io/TheCSSKing/full/VwwRzgg
   description: Cool underlines effects done entirely w/ CSS Gradients.  No images or JS.  My most popular pen. 
   img: /assets/img/underline_small.png
+- name: The "Don't Follow Me" Button
+  url: https://codepen.io/TheCSSKing/full/mgdRwx
+  description: A novel take on the Github follow button.  Useful for avoiding pesky followers.
+  img: /assets/img/dont-follow.png
+- name: This Site Uses Cookies
+  url: https://codepen.io/TheCSSKing/full/eXRRwM
+  description: What it feels like to browse the web these days.
+  img: /assets/img/cookies.png
