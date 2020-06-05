@@ -4,14 +4,27 @@ title: Writing
 ---
 <h3 class="pb-3 border-bottom border-dark mb-4">Writing</h3>
 
-<ul class="list list-unstyled">
+<!-- <ul class="list list-unstyled">
     {% for post in site.posts %}
         <li>
             <h5 class="mt-4 mb-1">
                 <a class="text-decoration-none text-dark" href="{{ post.url }}">{{ post.title}}</a>
             </h5>
             <p class="text-muted mb-1">{{ post.date | date_to_string }}</p>
-            <!-- {{ post.excerpt }} -->
+        </li>
+    {% endfor %}
+</ul> -->
+
+<ul class="list list-unstyled">
+    {% for post in site.posts %}
+        <li>
+            <span class="text-muted mr-3">{{ post.date | date: "%b %d %Y" }}</span>
+            <a class="text-dark" href="{{ post.url }}">{{ post.title}}</a>
+
+            <!-- <h5 class="mt-4 mb-1">
+                <small class="text-muted mb-1">{{ post.date | date_to_string }}</small>
+                <a class="text-decoration-none text-dark" href="{{ post.url }}">{{ post.title}}</a>
+            </h5> -->
         </li>
     {% endfor %}
 </ul>

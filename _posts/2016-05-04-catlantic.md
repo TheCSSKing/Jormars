@@ -14,7 +14,7 @@ From a technical standpoint there is nothing new about the idea.  It was basic
 
 I spent several weeks building it from scratch using python and the Ferris Framework.  In the end I succeeded in building something that had most of the core functionality I was looking for: user accounts, user articles, voting, and more.  Unfortunately, despite using a template, it looked pretty mediocre (screenshot below).  I also quickly realized that there was a lot of non-core functionality that needed to be implemented.  Oh, and testing.  And at this point I had no users.  Faced with the prospect of working several more weeks for nobody, I decided to "take a break" for awhile.
 
-[caption id="attachment_73" align="alignnone" width="672"]<a href="http://www.jormars.com/wp-content/uploads/2014/09/CatlanticScreen.png"><img class="wp-image-73 size-large" src="http://www.jormars.com/wp-content/uploads/2014/09/CatlanticScreen-1024x655.png" alt="CatlanticScreen" width="672" height="429" /></a> A screenshot of The Catlantic.[/caption]
+<!-- [caption id="attachment_73" align="alignnone" width="672"]<a href="http://www.jormars.com/wp-content/uploads/2014/09/CatlanticScreen.png"><img class="wp-image-73 size-large" src="http://www.jormars.com/wp-content/uploads/2014/09/CatlanticScreen-1024x655.png" alt="CatlanticScreen" width="672" height="429" /></a> A screenshot of The Catlantic.[/caption] -->
 
 # What Went Wrong
 
