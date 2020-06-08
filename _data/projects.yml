@@ -16,7 +16,7 @@
   img: /assets/img/evil-gram.png
 - name: More Obnoxious CSS
   url: https://www.thecssking.com/MoreObnoxiousCSS/
-  description: Funny CSS animations based off of the original <a href="https://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!
+  description: Funny CSS animations based off of the original <a rel="noopener" href="https://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!
   img: /assets/img/Obnoxious_Med.png
 - name: Binge Browser
   url: http://www.bingebrowser.com/
