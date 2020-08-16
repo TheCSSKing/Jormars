@@ -26,6 +26,7 @@ $primary-base: #1f81e4;
 
 // For contrast on white BG
 $primary-slightly-darker: #126cc7;
+$dark-blue: #326891;
 
 .text-primary-base {
     color: $primary-base;
@@ -60,14 +61,18 @@ body {
 
 }
 
+a {
+    // color: $primary-slightly-darker;
+    color: $dark-blue;
+}
 
 a.fancy {
     color: $gray-900;
     font-weight: bold;
+    text-decoration: none;
 
     &:hover {
         color: $gray-900;
-        text-decoration: none;
         background-image: linear-gradient(90deg, $primary-base, $primary-base);
     }
 
@@ -154,6 +159,10 @@ a.fancy {
         p, ul, li, blockquote {
             font-family: georgia, serif;
             margin-bottom: 1.5 * $spacer;
+        }
+
+        a {
+            text-decoration: underline;
         }
     }
 
