@@ -7,7 +7,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: assets/img
 public_path: assets/img
 front_matter_path: ''
