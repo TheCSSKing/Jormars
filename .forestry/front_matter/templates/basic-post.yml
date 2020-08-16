@@ -5,9 +5,11 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
 - type: text
   name: author
   label: author
+  default: Jordan Marshall
 - type: text
   name: title
   label: title
