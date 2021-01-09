@@ -2,9 +2,10 @@
 layout: default
 ---
 <article class="template-post">
-    <header class="post-header mb-4">
-        <h1>{{ page.title }}</h1>
-        <p class="text-muted mb-2">{{ page.date | date_to_string }}</p>
+    <header class="post-header mb-3">
+        <h1 class="mt-2 title">{{ page.title }}</h1>
+        <!-- <p class="mb-2 font-italic">{{ page.date | date_to_string }}</p> -->
+        <p class="mb-2 subtitle">{{ page.date | date:  "%B %e, %Y" }}</p>
         <!-- <p class="mb-0">
             <span class="text-muted">Tags:</span>
             {% for tag in page.tags %}

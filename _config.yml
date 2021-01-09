@@ -21,12 +21,13 @@
 title: Jordan Marshall
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal homepage of Jordan Marshall.  
+  The personal homepage and blog of Jordan Marshall.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jormars.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: thecssking
 # github_username:  thecssking
 
+gradient_url: https://www.gradientmagic.com
 codepen_url: https://codepen.io/TheCSSKing/
 twitter_url: https://twitter.com/TheCSSKing
 github_url: https://github.com/TheCSSKing
@@ -35,6 +36,9 @@ github_url: https://github.com/TheCSSKing
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+permalink: /:title/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

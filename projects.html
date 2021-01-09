@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+permalink: /projects
 ---
 <h3 class="mb-2">Projects</h3>
 
@@ -12,7 +13,18 @@ title: Projects
 </p>
 
 
-<div class="row pt-5">
+<ul class="list-unstyled pt-2">
+    {% for item in site.data.projects %}
+        <li class="mt-3">
+            <strong>
+                <a href="{{ item.url }}">{{item.name}}</a>
+            </strong>  <br> {{item.description}}
+        </li>
+    {% endfor %}
+</ul>
+
+
+<!-- <div class="row pt-5">
     {% for item in site.data.projects %}
         <div class="col-12 col-md-6 mb-5">
             <div class="card shadow-sm border-0" targeturl="{{ item.url }}">
@@ -25,12 +37,12 @@ title: Projects
             </div>
         </div>
     {% endfor %}
-</div>
+</div> -->
 
 <!-- <div class="row pt-5">
     <div class="col"> 
         {% for item in site.data.projects %}
-            <div class="card shadow-sm  mb-5" targeturl="{{ item.url }}">
+            <div class="card shadow-sm  border-0 mb-4" targeturl="{{ item.url }}">
                 <div class="row"> 
                     <div class="col-sm-5">
                         <img class="card-img" src="{{ item.img }}" alt="">
@@ -47,7 +59,7 @@ title: Projects
     </div>
 </div> -->
 
-<h4 class="mb-2 mt-4">Codepen Pens</h4>
+<!-- <h4 class="mb-2 mt-4">Codepen Pens</h4>
 <p class="mb-0">
     I really like Codepen for small "bite size" projects and fun experiments. 
     There are a few of my favorites, you can see a more comprehensive list in <a class="fancy" href="{{site.codepen_url}}">my Codepen profile</a>.
@@ -67,7 +79,7 @@ title: Projects
             </div>
         </div>
     {% endfor %}
-</div>
+</div> -->
 
 <!-- <div class="row pt-5">
     <div class="col">

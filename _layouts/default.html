@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>{{ site.title }} - {{ page.title }}</title>
-        <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/assets/css/native.css" rel="stylesheet">
-        <link href="/assets/css/styles.css" rel="stylesheet">        
+		<title>
+			{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+		</title>
+
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+		<!-- <link href="/assets/css/native.css" rel="stylesheet"> -->
+		<link href="/assets/css/styles.css" rel="stylesheet">        
 
 		<link rel="canonical" href="{{site.url}}{{ page.url | replace: 'index.html',''}}" />
 		<meta charset="utf-8" /> 
-		<meta name="description" content="{{ site.description }}" />
+		<meta name="description" content="{%if page.description %} {{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- RSS Feed -->
@@ -26,38 +29,45 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<!-- Open Graph tags -->
-		<meta property="og:title" content="Jordan Marshall" />
-		<meta property="og:description" content="{{ site.description }}" />
-		<meta property="og:url" content="https://www.jormars.com" />
-		<meta property="og:image" content="TODO" />
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+		<meta property="og:description" content="{%if page.description %} {{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+		<meta property="og:image" content="{{ site.url }}/assets/img/icons/android-chrome-512x512.png" />
+		<meta property="og:site_name" content="The Personal Homepage of Jordan Marshall">
 
 		<!-- No need to duplicate OG tags - twitter will check for them (https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html) -->
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:creator" content="TODO" />
+		<meta name="twitter:creator" content="@thecssking" />
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55527133-6"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55527133-1"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-		  gtag('config', 'UA-55527133-1');
+			gtag('config', 'UA-55527133-1');
 		</script>
 	</head>
 
     <body>
-        <div class="container align-items-end shadow py-4">
-            <div class="row border-bottom border-g200">
-                <div class="col-12 px-4 px-md-5">
-                    {% include header.html %}
-                </div>
-			</div>
-			<div class="row">
-				<div class="col-12 px-4 px-md-5 pt-4">
-					{{ content }}
-				</div>
-			</div>
+
+			<!-- py-4 -->
+      <div class="container main-container align-items-end shadow pt-3 pb-4">
+
+          <div class="row border-bottom border-g200">
+              <div class="col-12 px-4 px-md-5">
+                  {% include header.html %}
+           	 </div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 px-4 px-md-5 pt-4">
+							{{ content }}
+						</div>
+					</div>
 			
             {% include footer.html %}
         </div> <!--- Container -->
