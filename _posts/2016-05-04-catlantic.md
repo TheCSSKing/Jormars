@@ -2,7 +2,7 @@
 layout: post
 author: Jordan Marshall
 title: The Catlantic, or How Not to Build an App
-tags: projects, humor, wisdom
+tags: bootstraping funny
 ---
 <em>This article is about "The Catlantic", a website I built in spring 2014.  You wont find it in my project portfolio, for reasons that should become clear.</em>
 

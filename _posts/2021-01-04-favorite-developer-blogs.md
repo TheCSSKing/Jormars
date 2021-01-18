@@ -2,11 +2,11 @@
 layout: post
 author: Jordan Marshall
 title: My Favorite Developer Blogs
-tags: tech, advice
+tags: tech advice
 description: A list of my favorite developer blogs
 ---
 
-I love looking at other developers blogs, and not just when I'm skimming for an answer to a hard tech problem.  I get invaluable career advice and inspiration from reading what others are doing.   
+I love looking at other developers blogs, and not just when I'm skimming for an answer to a hard tech problem.  I get invaluable career advice and inspiration from reading what others are doing.  Most devs tend to build it themselves, which results in interesting design - for better or worse.
 
 I've divided the list into two groups.  The first group are my personal favorites, due both to their content and interest areas.  The second group
 are developers with great blogs, but ones that don't line up with my interests as faithfully (IE hardware, or systems programming).
@@ -19,6 +19,7 @@ are developers with great blogs, but ones that don't line up with my interests a
 * [Shawn Wang](https://www.swyx.io/about/)
 * [Jeff Atwood](https://blog.codinghorror.com/)
 * [Patrick McKenzie](https://www.kalzumeus.com/)
+* [Josh Comeau](https://www.joshwcomeau.com/)
 
 # Other Good Ones
 
@@ -37,3 +38,4 @@ Great blogs, but not as closely aligned to my interests.
 
 * [Dan Luu](https://danluu.com/) has a [great list of programming blogs](https://danluu.com/programming-blogs/).
 * Multiple Hacker News compilations: [What are some great personal blogs/portfolios](https://news.ycombinator.com/item?id=19114037), [What is your blog and why should I read it?](https://news.ycombinator.com/item?id=22800136) 
+* [Julia Evans](https://jvns.ca/), who updates all the time and has an incredible blog, also has a [great list of tech blogs](https://jvns.ca/blogroll/).

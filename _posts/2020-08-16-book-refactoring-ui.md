@@ -2,10 +2,13 @@
 layout: post
 author: Jordan Marshall
 title: Book Review - Refactoring UI
-tags: tech, advice, books
+tags: design book-review
+excerpt_separator: <!--more-->
 ---
 
-I just finished the book [Refactoring UI](https://refactoringui.com/), by [Adam Wathan](https://twitter.com/adamwathan) and [Steve Schoger](https://twitter.com/steveschoger).  Refactoring UI is a book of design ideas and strategies written for developers, with a focus on improving the overall look and feel of an entire application.  
+I just finished the book [Refactoring UI](https://refactoringui.com/), by Adam Wathan and Steve Schoger.  Refactoring UI is a book of design ideas and strategies written for developers, with a focus on improving the overall look and feel of an entire application.  
+
+<!--more-->
 
 As a developer looking to improve my design skills I fit squarely into the target audience, and found it an incredibly worthwhile read.  The quality of my design work improved noticeably after reading the book and watching some of the associated videos.
 

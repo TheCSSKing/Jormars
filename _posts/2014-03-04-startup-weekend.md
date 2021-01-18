@@ -2,7 +2,7 @@
 layout: post
 author: Jordan Marshall
 title: Startup Weekend - Lessons Learned
-tags: wisdom, entrepreneurship
+tags: bootstraping
 ---
 Last February I attended a <a href="http://startupweekend.org/about/">Startup Weekend</a> event for the first time.  As an aspiring entrepreneur still trying to learn the ropes it was an incredibly valuable experience.   I made some connections, worked on an interesting project, and had an all around good time.  It was especially exciting for me as a group formed around the idea I pitched (at the start of the weekend folks pitch ideas, then teams form around the favorites, see the <a href="http://startupweekend.org/about/firsttimer/">FAQ</a>) and we ended up getting 3rd place!
 

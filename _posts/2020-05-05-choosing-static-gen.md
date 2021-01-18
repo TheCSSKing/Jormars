@@ -2,7 +2,7 @@
 layout: post
 author: Jordan Marshall
 title: Choosing a Static Site Generator
-tags: projects, meta
+tags: tutorial meta
 ---
 
 When it came time to rebuild my personal site I knew I wanted to run it on a static site generator.  There are innumerable benefits to this approach, including low maintenance overhead, lots of room for customization, less security concerns, and mostly free hosting.  A lot more can be said on the benefits, but ultimately it seemed like the best approach for a website that I wanted to last for [at least ten years]({% post_url 2020-05-01-building-to-last %}).  

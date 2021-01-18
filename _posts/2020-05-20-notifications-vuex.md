@@ -2,18 +2,21 @@
 layout: post
 author: Jordan Marshall
 title: The Right Way to Show Notifications w/ Vuex
-tags: tech, advice, vue
+tags: tutorial vue
+excerpt_separator: <!--more-->
 ---
 
-Short Summary:
+How do you show error notifications from Vuex?  As a state management library it shouldn’t have any role in the view of the application, that is, showing state to users.  However, anyone who’s built a big enough application with Vuex also knows that you need some way to get notifications from Vuex to the user.  
+
+<!--more-->
+
+<!-- TLDR Summary:
 
 1. Keep a list of notifications (just the content) in Vuex.
 2. Display notifications via a separate component that watches for notifications.
 3. Watch [this great video](https://www.youtube.com/watch?v=blGp6vslw7s) for a full working example.
 
-# The Problem
-
-How do you show error notifications from Vuex?  As a state management library it shouldn’t have any role in the view of the application, that is, showing state to users.  However, anyone who’s built a big enough application with Vuex also knows that you need some way to get notifications from Vuex to the user.  
+# The Problem -->
 
 I recently found myself in this situation while working on a large application at work.  We have a significant number of API calls being made from the Vuex store across several [modules](https://vuex.vuejs.org/guide/modules.html).  Many of these calls require success or failure notifications to be displayed to the user.  
 

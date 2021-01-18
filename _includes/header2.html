@@ -1,40 +1,64 @@
-<!-- <nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jordanNavbar" aria-controls="jordanNavbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="jordanNavbar">
-    <a class="navbar-brand" href="#">Jordan Marshall</a>
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-    </ul>
 
+<section {% if page.cover %} style="background-image: {{ page.cover }}" {% else %} class="header-bg" {% endif %}>
+
+  <!-- <div class="container px-4 px-md-5 pb-4 pt-4"> -->
+    <nav class="text-center pt-4 pb-4 px-5">
+
+      <div class="float-left font-weight-bold font-lg text-white">
+        <a href="/" class="text-decoration-none">Jordan Marshall</a>
+      </div>
+      <!-- <div class="select-square float-left"></div> -->
+      <div class="mb-3 float-right font-weight-bold text-uppercase">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                {{item.name}}
+            </a>
+        {% endfor %}
+
+        <a href="{{ site.gradient_url }}">Gradients</a>
+        <!-- <a href="{{ site.codepen_url }}">Codepen</a>
+        <a href="{{ site.twitter_url }}">Twitter</a> -->
+        <a href="{{ site.url }}/feed.xml">RSS</a>
+      </div>
+
+      <div class="py-5 w-50 ml-auto mr-auto">
+        <h1 class="brand display-4 text-white mb-3 mt-3">
+          {{ page.title }}
+        </h1>
+        <div class="subtitle text-white">
+          {%if page.subtitle %} {{ page.subtitle }}{% else %}{{ page.date | date:  "%B %e, %Y" }}{% endif %}
+        </div>
+      </div>
+    </nav>
+  <!-- </div> -->
+
+</section>
+
+<!-- <section class="header-bg">
+  <div class="container px-4 px-md-5 pb-4 pt-4">
+    <nav class="">
+      <a href="/" class="text-decoration-none">
+        <h1 class="brand display-4">Jordan Marshall</h1>
+      </a>
+
+      <div class="mb-3">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                {{item.name}}
+            </a>
+        {% endfor %}
+
+        <a href="{{ site.gradient_url }}">Gradients</a>
+        <a href="{{ site.codepen_url }}">Codepen</a>
+        <a href="{{ site.twitter_url }}">Twitter</a>
+        <a href="{{ site.url }}/feed.xml">RSS</a>
+      </div>
+    </nav>
   </div>
-</nav> -->
+</section> -->
 
-<div class="container px-4 pt-4 bg-jm-primary">
-  <nav>
-    <div class="d-inline float-right mt-1">
-      {% for item in site.data.navigation %}
-          <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
-              {{item.name}}
-          </a>
-      {% endfor %}
 
-      <a href="{{ site.gradient_url }}">Gradients</a>
-      <a href="{{ site.codepen_url }}">Codepen</a>
-      <a href="{{ site.twitter_url }}">Twitter</a>
-      <a href="{{ site.url }}/feed.xml">RSS</a>
-    </div>
-    <a href="/" class="text-decoration-none">
-      <h1 class="text-white brand">Jordan Marshall</h1>
-    </a>
-  </nav>
-</div>
+
 
 <!-- <div class="app-header mb-4">
   <a href="/" class="text-decoration-none">

@@ -2,7 +2,7 @@
 layout: post
 author: Jordan Marshall
 title: Building My Site to Last
-tags: projects, meta
+tags: meta
 ---
 
 I’m sick of constantly re-building my personal site.  I’ve done it several times over the last few years, and it never seems to stick.  First w/ hosted wordpress, then as a purely static site, then several more versions of that.  I’m now rebuilding my site for what seems like the hundredth time, and this time I want it to last.

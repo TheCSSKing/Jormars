@@ -1,22 +1,22 @@
 - name: Gradient Magic
   url: https://www.gradientmagic.com
-  description: The largest gallery of CSS Gradients on the web. Still being updated with fantastic and unique gradients.
+  description:  The largest gallery of CSS Gradients on the web.  Featuring complex and unique patterns you wouldn't expect from CSS. <br><br>  This is my largest side project to date.  In the last year I've been working on monetizing it, which has been a great learning experience.
   img: /assets/img/gm_small.png
 - name: Blink.CSS
   url: https://www.thecssking.com/BlinkCSS/
-  description: A fun little library of CSS blink animations. Created to learn a little more about CSS animations.
+  description: A fun little library of CSS blink animations.  Not practical, but fun to make! Created to learn more about CSS animations.
   img: /assets/img/Blink_Med.png
 - name: Escape Buttons
   url: https://www.thecssking.com/EscapeButtons/
-  description: Buttons that are fiendishly hard to click.  Mouse required for maximum frustration.
+  description: Buttons that are fiendishly hard to click.  Built with CSS and Javascript.  Little practical application, but unlimited frustration. Mouse required for best experience.
   img: /assets/img/escape-buttons.png
 - name: Evil CSS Gram
   url: http://www.thecssking.com/EvilCSSGram/
-  description: A library of Instagram like CSS image filters from a hell dimension
+  description: A library of Instagram like CSS image filters, sort of like CSS Gram, except evil.  Filters include "black mass", "children of the corn", "nosferatu", and "drought". <br><br>  Built by stretching CSS filters to the limit.  Perfect for your next app!    
   img: /assets/img/evil-gram.png
 - name: More Obnoxious CSS
   url: https://www.thecssking.com/MoreObnoxiousCSS/
-  description: Funny CSS animations based off of the original <a rel="noopener" href="https://tholman.com/obnoxious/" target="_blank">Obnoxious.CSS</a>. Not practical, but a fun way to learn about CSS Animations!
+  description: Funny CSS animations based off of the original Obnoxious.CSS. Not practical, but a fun way to learn about CSS Animations!
   img: /assets/img/Obnoxious_Med.png
 - name: Binge Browser
   url: http://www.bingebrowser.com/

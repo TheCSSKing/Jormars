@@ -1,27 +1,28 @@
 ---
 layout: default
 title: Projects
+subtitle: Projects done outside of work to learn new skills and have fun
 permalink: /projects
+cover: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(37, 56, 222),rgb(96, 189, 244));
 ---
-<h3 class="mb-2">Projects</h3>
+<!-- <h2 class="mb-2">Projects</h2> -->
 
-<!-- <p class="mt-3 mb-0">Projects done outside of work to learn new skills and have a little fun.</p> -->
-
-<p class="mb-0">
+<!-- <p class="mb-0">
     Projects done outside of work to learn new skills and have a little fun.  
-    <!-- Most are small, but some (like GradientMagic) represent a significant time investment. -->
-</p>
+</p> -->
 
 
-<ul class="list-unstyled pt-2">
+<p>Make sure to checkout my <a href="{{ site.codepen_url }}">Codepen Portfolio</a> - I have a lot of other cool projects there.</p>
+
+<!-- <ul class="list-unstyled">
     {% for item in site.data.projects %}
-        <li class="mt-3">
+        <li class="mt-4">
             <strong>
-                <a href="{{ item.url }}">{{item.name}}</a>
+                <a class="font-weight-bold font-xl" href="{{ item.url }}">{{item.name}}</a>
             </strong>  <br> {{item.description}}
         </li>
     {% endfor %}
-</ul>
+</ul> -->
 
 
 <!-- <div class="row pt-5">
@@ -39,25 +40,23 @@ permalink: /projects
     {% endfor %}
 </div> -->
 
-<!-- <div class="row pt-5">
+<div class="row pt-4">
     <div class="col"> 
         {% for item in site.data.projects %}
-            <div class="card shadow-sm  border-0 mb-4" targeturl="{{ item.url }}">
+            <a class="mb-5 pb-4 d-block no-decoration" href="{{ item.url }}">
                 <div class="row"> 
                     <div class="col-sm-5">
-                        <img class="card-img" src="{{ item.img }}" alt="">
+                        <img class="rounded shadow-sm w-100 border border-light" src="{{ item.img }}" alt="">
                     </div>
                     <div class="col-sm-7">
-                        <div class="card-body pl-0">
-                            <h5 class="card-title">{{ item.name }}</h5>
-                            <p class="card-text">{{ item.description }}</p>
-                        </div>                
+                        <h4 class="card-title mt-0 mb-3 text-primary-base font-weight-bold">{{ item.name }}</h4>
+                        <p class="text-dark">{{ item.description }}</p>               
                     </div>
                 </div>
-            </div>
+            </a>
         {% endfor %}
     </div>
-</div> -->
+</div>
 
 <!-- <h4 class="mb-2 mt-4">Codepen Pens</h4>
 <p class="mb-0">
@@ -102,7 +101,7 @@ permalink: /projects
 </div> -->
 
 
-<script>
+<!-- <script>
 
     function addCardLinks(){
         let cards = document.querySelectorAll('.card');
@@ -118,4 +117,4 @@ permalink: /projects
 
     addCardLinks();
 
-</script>
+</script> -->

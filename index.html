@@ -1,28 +1,31 @@
 ---
 layout: default
-title: Jordan Marshall - Home
+title: Jordan Marshall
+subtitle: Frontend Viceroy, UI/UX Czar, and The CSS King
 ---
-<div class="app-home">
+<div class="app-home skinny-container">
 
-    <p class="mb-3">
-        Howdy, I'm Jordan.  I'm a software engineer who enjoys building fun apps, like <a href="#">Escape Buttons</a> or <a href="#">Blink.css</a>.  
-        <!-- Howdy!  I'm Jordan.  I'm a software engineer who enjoys building creative apps, writing about tech, and making people laugh. -->
-        <!-- Hi, I'm Jordan.  You have probably seen some of my work on <a href="#">Codepen</a>, or possibly my side project - <a href="">Gradient Magic</a>. -->
-
-        <!-- Hi, I'm Jordan.  I'm a software engineer who loves to build and write.  Lately I've been most interested in leadership, design,
-        Lately I've been working more on the frontend,  -->
-    </p>
-    <p class="mb-4">
-        Lately I've been working on developing my side project, <a href="https://www.gradientmagic.com">Gradient Magic</a>, into a business.
+    <p class="mb-4 promo">
+        <!-- Howdy, I'm Jordan.  I'm a software engineer, design shaman, and management vicar.  You can find your brand here.   -->
+        Howdy!  I'm a software engineer who enjoys building things and writing about tech.
+        Lately I've been working on turning my side project, <a href="https://www.gradientmagic.com">Gradient Magic</a>, into a business.
     </p>
 
-    <div class="mb-2 font-weight-bold">LATEST</div>
+    <div class="mb-3 font-weight-bold">FAVORITES</div>
+    <ul class="list mb-25">
+        <!-- Tired of being a "Ninja" or "Rockstar"?  Look no further, with the personal brand generator, you can now be a management vicar! -->
+        <li>My favorite pen is one of my earlier ones, the <a class="" href="https://codepen.io/TheCSSKing/full/rRLBRX">Personal Brand Generator</a>.</li>
+        <li>One of my first CSS libraries - <a class="" href="https://www.thecssking.com/MoreObnoxiousCSS/">More Obnoxious CSS</a> - is pretty neat.</li>
+        <li>My Codepen handle is "TheCSSKing" - inspired by <a href="https://www.thecssking.com/CSSKing/" class="">The Decree of the CSS King</a>.</li>
+    </ul>
+
+    <div class="mb-3 mt-4 font-weight-bold">LATEST</div>
 
     <ul class="list list-unstyled post-list">
-        {% for post in site.posts limit:5 %}
-            <li>
-                <span class="text-muted mr-2 mr-md-3 d-none d-md-inline">{{ post.date | date: "%b %d %Y" }}</span>
-                <a class="text-dark" href="{{ post.url }}">{{ post.title}}</a>
+        {% for post in site.posts limit:4 %}
+            <li class="mb-4"> 
+                <a href="{{ post.url }}" class="font-lg font-weight-bold">{{ post.title }}</a>
+                <p class="mt-0 mb-2">{{ post.excerpt | truncate: 220  }}</p>
             </li>
         {% endfor %}
     </ul>
@@ -31,19 +34,7 @@ title: Jordan Marshall - Home
         <a href="/writing">See all articles</a>
     </p>
 
-    <!-- <ul class="list mb-4">
-        <li>I just rebuilt my website!  Read more at <a class="" href="{% post_url 2020-05-01-building-to-last %}">Building My Site to Last</a>.</li>
-        <li>Latest Pen: <a class="" href="https://codepen.io/TheCSSKing/full/gOajEZW">CSS Gridient 2</a>.  </li>
-        <li>I'm continuing to add features to <a class="" href="https://www.gradientmagic.com">Gradient Magic</a> - check it out if you haven't already.</li>
-    </ul> -->
 
-    <div class="mb-2 mt-4 font-weight-bold">FAVORITES</div>
-    <ul class="list mb-5">
-        <li>My favorite pen is one of my earlier ones, the <a class="" href="https://codepen.io/TheCSSKing/full/rRLBRX">Personal Brand Generator</a>.</li>
-        <li>One of my first CSS libraries - <a class="" href="https://www.thecssking.com/MoreObnoxiousCSS/">More Obnoxious CSS</a> - is pretty neat.</li>
-        <li>My Codepen handle is "TheCSSKing" - inspired by <a href="https://www.thecssking.com/CSSKing/" class="">The Decree of the CSS King</a>.</li>
-        <!-- <li>I've been working on <a class="" href="https://www.gradientmagic.com">Gradient Magic</a> for almost a year now.</li> -->
-    </ul>
 
 </div>
 
