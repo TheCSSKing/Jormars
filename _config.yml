@@ -21,7 +21,7 @@
 title: Jordan Marshall
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal homepage and blog of Jordan Marshall.  
+  A blog covering technology, career development, and entrepreneurship from developer Jordan Marshall 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jormars.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: thecssking

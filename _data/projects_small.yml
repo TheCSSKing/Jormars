@@ -1,0 +1,23 @@
+- name: Blink.CSS
+  url: https://www.thecssking.com/BlinkCSS/
+  description: A fun little CSS library of blink animations.  Built with only CSS animations. I was amazed at how many different varitions there are.
+  img: /assets/img/Blink_Med.png
+- name: Escape Buttons
+  url: https://www.thecssking.com/EscapeButtons/
+  description: Buttons that are fiendishly hard to click.  Perfect for that "No Thanks" button on your newsletter signup.  Built with CSS and Javascript.
+  img: /assets/img/escape-buttons.png
+- name: Evil CSS Gram
+  url: http://www.thecssking.com/EvilCSSGram/
+  description: A library of Instagram like CSS image filters, sort of like CSS Gram, except evil.  Filters include "black mass", "children of the corn", "nosferatu", and "drought"
+  img: /assets/img/evil-gram.png
+- name: More Obnoxious CSS
+  url: https://www.thecssking.com/MoreObnoxiousCSS/
+  description: Funny CSS animations based off of the original Obnoxious.CSS. Not practical, but a fun way to learn about CSS Animations!
+  img: /assets/img/Obnoxious_Med.png
+- name: Binge Browser
+  url: http://www.bingebrowser.com/
+  description: A unique tool that lets you "binge" content on popular websites. My first major web development project, not maintained anymore.
+  img: /assets/img/BB_Small.png
+
+
+  

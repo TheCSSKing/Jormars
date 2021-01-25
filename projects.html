@@ -5,48 +5,16 @@ subtitle: Projects done outside of work to learn new skills and have fun
 permalink: /projects
 cover: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(37, 56, 222),rgb(96, 189, 244));
 ---
-<!-- <h2 class="mb-2">Projects</h2> -->
-
-<!-- <p class="mb-0">
-    Projects done outside of work to learn new skills and have a little fun.  
-</p> -->
-
 
 <p>Make sure to checkout my <a href="{{ site.codepen_url }}">Codepen Portfolio</a> - I have a lot of other cool projects there.</p>
-
-<!-- <ul class="list-unstyled">
-    {% for item in site.data.projects %}
-        <li class="mt-4">
-            <strong>
-                <a class="font-weight-bold font-xl" href="{{ item.url }}">{{item.name}}</a>
-            </strong>  <br> {{item.description}}
-        </li>
-    {% endfor %}
-</ul> -->
-
-
-<!-- <div class="row pt-5">
-    {% for item in site.data.projects %}
-        <div class="col-12 col-md-6 mb-5">
-            <div class="card shadow-sm border-0" targeturl="{{ item.url }}">
-                 <img class="card-img-top" src="{{ item.img }}" alt="">
-
-                <div class="card-body">
-                    <h5 class="card-title">{{ item.name }}</h5>
-                    <p class="card-text text-muted">{{ item.description }}</p>
-                </div>                
-            </div>
-        </div>
-    {% endfor %}
-</div> -->
 
 <div class="row pt-4">
     <div class="col"> 
         {% for item in site.data.projects %}
-            <a class="mb-5 pb-4 d-block no-decoration" href="{{ item.url }}">
+            <a class="mb-5 pb-3 d-block no-decoration" href="{{ item.url }}">
                 <div class="row"> 
                     <div class="col-sm-5">
-                        <img class="rounded shadow-sm w-100 border border-light" src="{{ item.img }}" alt="">
+                        <img class="rounded shadow w-100 border border-light" src="{{ item.img }}" alt="">
                     </div>
                     <div class="col-sm-7">
                         <h4 class="card-title mt-0 mb-3 text-primary-base font-weight-bold">{{ item.name }}</h4>
@@ -57,6 +25,25 @@ cover: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,9
         {% endfor %}
     </div>
 </div>
+
+{% comment %}
+
+<!-- <div class="row">
+    <div class="col">
+        <h4 class="mb-4 mt-0">Smaller Projects</h4>
+        <ul>
+        {% for item in site.data.projects_small %}
+            <li class="list">
+                <a class="mb-4 d-block no-decoration" href="{{ item.url }}">
+                    <div class="mt-0 mb-2 text-primary-base font-weight-bold">{{ item.name }}</div>
+                    <p class="text-dark">{{ item.description }}</p>               
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div> -->
+
 
 <!-- <h4 class="mb-2 mt-4">Codepen Pens</h4>
 <p class="mb-0">
@@ -99,22 +86,4 @@ cover: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,9
         {% endfor %}
     </div>
 </div> -->
-
-
-<!-- <script>
-
-    function addCardLinks(){
-        let cards = document.querySelectorAll('.card');
-        cards.forEach(function(card){
-            console.log(card.attributes.targeturl.nodeValue);
-
-            card.addEventListener('click', function(){
-                console.log(card.attributes.targetURL.nodeValue)
-                window.location = card.attributes.targeturl.nodeValue
-            })
-        })
-    }
-
-    addCardLinks();
-
-</script> -->
+{% endcomment %}

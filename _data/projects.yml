@@ -1,14 +1,14 @@
 - name: Gradient Magic
   url: https://www.gradientmagic.com
   description:  The largest gallery of CSS Gradients on the web.  Featuring complex and unique patterns you wouldn't expect from CSS. <br><br>  This is my largest side project to date.  In the last year I've been working on monetizing it, which has been a great learning experience.
-  img: /assets/img/gm_small.png
+  img: /assets/img/GM_Social.png
 - name: Blink.CSS
   url: https://www.thecssking.com/BlinkCSS/
-  description: A fun little library of CSS blink animations.  Not practical, but fun to make! Created to learn more about CSS animations.
+  description: A fun little CSS library of blink animations.  Built with only CSS animations. I was amazed at how many different varitions there are. <br><br>  Not practical, but fun to make! Created to learn more about CSS animations.
   img: /assets/img/Blink_Med.png
 - name: Escape Buttons
   url: https://www.thecssking.com/EscapeButtons/
-  description: Buttons that are fiendishly hard to click.  Built with CSS and Javascript.  Little practical application, but unlimited frustration. Mouse required for best experience.
+  description: Buttons that are fiendishly hard to click.  Perfect for that "No Thanks" button on your newsletter signup.  Built with CSS and Javascript. <br><br>  Little practical application, but unlimited frustration. Mouse required for best experience.
   img: /assets/img/escape-buttons.png
 - name: Evil CSS Gram
   url: http://www.thecssking.com/EvilCSSGram/
@@ -16,8 +16,12 @@
   img: /assets/img/evil-gram.png
 - name: More Obnoxious CSS
   url: https://www.thecssking.com/MoreObnoxiousCSS/
-  description: Funny CSS animations based off of the original Obnoxious.CSS. Not practical, but a fun way to learn about CSS Animations!
+  description: Funny CSS animations based off of the original Obnoxious.CSS by Tim Holman.  Featuring such gems as "Dance Party", "Black Hole", and my favorite - "Crazy Cursor".  <br><br> Not practical, but a fun way to learn about CSS Animations!
   img: /assets/img/Obnoxious_Med.png
+- name: The Decree of The CSS King
+  url: https://www.thecssking.com/
+  description:  A humorous diatribe on the virtue of using only CSS and the perils of Javascript.  Built with (of course) only CSS and featuring a surprising number of interative elements.
+  img: /assets/img/CSS_King_Promo.png
 - name: Binge Browser
   url: http://www.bingebrowser.com/
   description: A unique tool that lets you "binge" content on popular websites. My first major web development project, not maintained anymore.

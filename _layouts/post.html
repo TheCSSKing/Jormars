@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<article class="template-post">
+<article class="template-post px-3">
+    {% comment %}
     <!-- <header class="post-header mb-3">
          <h1 class="mt-2 title">{{ page.title }}</h1>
          <p class="mb-2 font-italic">{{ page.date | date_to_string }}</p>
@@ -14,20 +15,17 @@ layout: default
             {% endfor %}
         </p> 
     </header> -->
-    <div class="post-content skinny-container">
+    {% endcomment %}
+    <div class="post-content">
         {{content }}
     </div>
-    <div class="post-footer skinny-container py-4">
+    <div class="post-footer py-4">
         {% if page.previous.url %}
         <div class="float-left">
-            <!-- <a href="{{ page.previous.url }}">
-                &laquo; {{ page.previous.title }} 
-            </a> -->
             <a class="btn btn-primary btn-primary-dark px-3 py-2" href="{{ page.previous.url }}">
                 &laquo; &nbsp; {{ page.previous.title | truncate: 30 }} 
             </a>
         </div>
-
         {% endif %}
 
         {% if page.next.url %}

@@ -3,28 +3,27 @@ layout: default
 title: Jordan Marshall
 subtitle: Frontend Viceroy, UI/UX Czar, and The CSS King
 ---
-<div class="app-home skinny-container">
+<div class="app-home">
 
-    <p class="mb-4 promo">
-        <!-- Howdy, I'm Jordan.  I'm a software engineer, design shaman, and management vicar.  You can find your brand here.   -->
-        Howdy!  I'm a software engineer who enjoys building things and writing about tech.
+    <p class="mb-25 text-dark promo">
+        Howdy!  I'm a software engineer who enjoys creating interesting apps and writing about tech.
         Lately I've been working on turning my side project, <a href="https://www.gradientmagic.com">Gradient Magic</a>, into a business.
     </p>
 
     <div class="mb-3 font-weight-bold">FAVORITES</div>
     <ul class="list mb-25">
-        <!-- Tired of being a "Ninja" or "Rockstar"?  Look no further, with the personal brand generator, you can now be a management vicar! -->
         <li>My favorite pen is one of my earlier ones, the <a class="" href="https://codepen.io/TheCSSKing/full/rRLBRX">Personal Brand Generator</a>.</li>
         <li>One of my first CSS libraries - <a class="" href="https://www.thecssking.com/MoreObnoxiousCSS/">More Obnoxious CSS</a> - is pretty neat.</li>
         <li>My Codepen handle is "TheCSSKing" - inspired by <a href="https://www.thecssking.com/CSSKing/" class="">The Decree of the CSS King</a>.</li>
     </ul>
 
-    <div class="mb-3 mt-4 font-weight-bold">LATEST</div>
+    <div class="mb-3 font-weight-bold">LATEST</div>
 
     <ul class="list list-unstyled post-list">
         {% for post in site.posts limit:4 %}
-            <li class="mb-4"> 
+            <li class="mb-25"> 
                 <a href="{{ post.url }}" class="font-lg font-weight-bold">{{ post.title }}</a>
+                <small class="text-muted d-none d-md-inline ml-2">{{ post.date | date: "%b %d %Y" }}</small>
                 <p class="mt-0 mb-2">{{ post.excerpt | truncate: 220  }}</p>
             </li>
         {% endfor %}
