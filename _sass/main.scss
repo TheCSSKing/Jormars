@@ -90,6 +90,47 @@ $accent-pink: pink;
     border-color: $primary-dark;
 }
 
+
+@keyframes blink-flicker-slow {
+	0% {
+		opacity: 1;
+	}
+
+	11% {
+		opacity: 0;
+	}
+
+	12% {
+		opacity: 1;
+	}
+
+	40% {
+		opacity: 0;
+	}
+
+	41% {
+		opacity: 1;
+	}
+
+	79% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.blink-flicker-slow {
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(1);
+	animation-name: blink-flicker-slow;
+	animation-duration: 7s;
+}
+
 /* End Utilities */
 
 body {
@@ -340,8 +381,8 @@ ul li, ol li {
     }
 
     .skinny-container {
-        padding-right: 5rem;
-        padding-left: 5rem;  
+        padding-right: 6rem;
+        padding-left: 6rem;  
     }
 
     nav {

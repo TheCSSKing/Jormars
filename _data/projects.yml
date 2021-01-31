@@ -2,7 +2,7 @@
   url: https://www.gradientmagic.com
   description:  The largest gallery of CSS Gradients on the web.  Featuring complex and unique patterns you wouldn't expect from CSS. <br><br>  This is my largest side project to date.  In the last year I've been working on monetizing it, which has been a great learning experience.
   img: /assets/img/GM_Social.png
-- name: Blink.CSS
+- name: <span class="blink-flicker-slow">Blink.CSS</span>
   url: https://www.thecssking.com/BlinkCSS/
   description: A fun little CSS library of blink animations.  Built with only CSS animations. I was amazed at how many different varitions there are. <br><br>  Not practical, but fun to make! Created to learn more about CSS animations.
   img: /assets/img/Blink_Med.png
