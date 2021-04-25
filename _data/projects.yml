@@ -10,10 +10,10 @@
   url: https://www.thecssking.com/EscapeButtons/
   description: Buttons that are fiendishly hard to click.  Perfect for that "No Thanks" button on your newsletter signup.  Built with CSS and Javascript. <br><br>  Little practical application, but unlimited frustration. Mouse required for best experience.
   img: /assets/img/escape-buttons.png
-- name: Evil CSS Gram
-  url: http://www.thecssking.com/EvilCSSGram/
-  description: A library of Instagram like CSS image filters, sort of like CSS Gram, except evil.  Filters include "black mass", "children of the corn", "nosferatu", and "drought". <br><br>  Built by stretching CSS filters to the limit.  Perfect for your next app!    
-  img: /assets/img/evil-gram.png
+# - name: Evil CSS Gram
+#   url: http://www.thecssking.com/EvilCSSGram/
+#   description: A library of Instagram like CSS image filters, sort of like CSS Gram, except evil.  Filters include "black mass", "children of the corn", "nosferatu", and "drought". <br><br>  Built by stretching CSS filters to the limit.  Perfect for your next app!    
+#   img: /assets/img/evil-gram.png
 - name: More Obnoxious CSS
   url: https://www.thecssking.com/MoreObnoxiousCSS/
   description: Funny CSS animations based off of the original Obnoxious.CSS by Tim Holman.  Featuring such gems as "Dance Party", "Black Hole", and my favorite - "Crazy Cursor".  <br><br> Not practical, but a fun way to learn about CSS Animations!
