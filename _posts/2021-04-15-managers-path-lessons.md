@@ -60,6 +60,6 @@ The benefit is that it forces you to (1) give your response a positive tone and 
 A few more quick tips that I found helpful. 
 
 * **Performance reviews**.  Keep critiques focused on a few key areas.  Avoid surprises - if there are major issues the person should already be aware.  If you have no areas of improvement, maybe it's time for a promotion.
-* **Fallacy of the open door policy**.  Most reports won’t feel comfortable showing up to a senior managers office without an invite, especially if they want to raise an issue.  Hold skip level 1 on 1s instead.
+* **Fallacy of the open door policy**.  Most reports won’t feel comfortable showing up to a senior managers office without an invite, especially if they want to raise an issue.  Hold skip level one on ones instead.
 * **Release frequency is an indicator of team health**. Even development teams working on research or early stage projects should be able to show some kind of deliverable at a regular interval.     
 * **Hold regular one on ones**.  Even if you are in frequent contact with somebody, it is still useful to have set aside time in which they can ask questions, raise concerns, or just vent. 
